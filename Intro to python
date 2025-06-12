@@ -1,0 +1,10 @@
+print("hello world")
+#this is how to comment-out in python
+print(20-5)
+name="Sayeema"
+hobby="listening to music"
+print("My name is", name)
+print(f"My name is {name} and my hobby is{hobby}.")
+print("Keywords in python")
+import keyword
+print(keyword.kwlist)
