@@ -1,0 +1,11 @@
+x=5
+y=9
+z=1
+#swapping numbers to make it according to ascending order
+temp=z
+z=y
+y=x
+x=temp
+print("Value of x after Swapping according to ascending order: ",x)
+print("Value of y after Swapping according to ascending order: ",y)
+print("Value of z after Swapping according to ascending order: ",z)
