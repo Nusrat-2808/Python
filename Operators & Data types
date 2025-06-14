@@ -1,0 +1,62 @@
+name="Penguin"
+age=15
+is_student=True
+weight=38.5
+print("Name :", name)
+print("Data Type of Name is", type(name))
+print("Age :", age)
+print("Data Type of Age is", type(age))
+print("is_student :", is_student)
+print("Data Type of is_student is", type(is_student))
+print("Weight :", weight)
+print("Data Type of Weight is", type(weight))
+print("\n After Type Casting")
+age=str(age)
+print(age)
+print("Data Type of Age is", type(age))
+weight=int(weight)
+print(weight)
+print("Data Type of Weight is", type(weight))
+
+num1=36
+num2=6
+print("\nNumber 1=", num1)
+print("Number 2=", num2)
+print("Addition:", num1+num2)
+print("Difference:", num1-num2)
+print("Product:", num1*num2)
+print("Division:", num1/num2)
+print("Floor Division:", num1//num2)
+print("Modulus operator:", num1%num2)
+print("Square:", num2**2)
+print("Square-root:", num1**0.5)
+print("Equal?",num1==num2)
+print("Number 1 greater?",num1>num2)
+print("Number 2 greater?",num1<num2)
+print("Not Equal?",num1!=num2)
+result= num1/2+num2**2+10
+print("The result of the given equation is:",result)
+
+first_name="Codingal"
+last_name="Educations"
+full_name=first_name+last_name
+example= "haa"*5
+print("\nFirst Name:",first_name)
+print("Last Name:",last_name)
+print("Full Name:",full_name)
+print("String multiplied 5 times gives this result:",example)
+word="Coding"
+print("Length of string:", len(word))
+print("First letter of string:", word[0])
+print("Last letter of string:", word[5])
+print("String sliced:", word[0:3])
+
+#Take input values from user
+a=input("\nEnter the value of a: ")
+b=input("Enter the value of b: ")
+#swapping number
+temp=a
+a=b
+b=temp
+print("Value of a after swapping: ",a)
+print("Value of b after swapping: ",b)
