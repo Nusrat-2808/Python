@@ -1,0 +1,32 @@
+#LOOP FROM 1 TO 10
+for i in range(1,11):
+    print(f"23 x {i} = {23*i}")
+
+#Python program to print a star pattern based on the number of rows 
+#Get the number of rows from the user
+x=int(input("Enter the number of rows: "))
+#Outer loop for each row
+for i in range(1, x+1) :
+    #Inner loop for each column in the row
+    for j in range(i):
+        #print star, end with space instead of new line
+        print("*",end="  ")
+        #After each row, print a new line
+    print()
+
+num=1
+sum=0
+n=int(input("Enter the Natural number upto which you want to get the sum: "))
+while(num<=n):
+    sum=sum+num
+    num=num+1
+
+print("Sum upto the given natural number is : ",sum)
+
+num=int(input("Enter the number you want to check: "))
+for i in range(2,num):
+    if num%i==0:
+        print(num," is not prime")
+        break
+else:
+    print(num," is prime.")
