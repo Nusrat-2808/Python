@@ -7,4 +7,5 @@ def fibonacci(n):
 terms=int(input("Enter the number of terms of the Fibonacci series: "))
 if terms<=0:
     print("Please enter a positive integer.")
-else:print(fibonacci(terms))
+else:
+    fibonacci(terms)
